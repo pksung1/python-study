@@ -46,7 +46,7 @@
 
 \뒤에 나오는 문자가 특수 문자로 취급하기 싫다면 첫 따옴표 앞에 r을 붙여서 **날 문자열(raw string)** 로 만들 수 있습니다.
 
-<pre><code>>>>print('C:\some\*\*\n\*\*ame')
+<pre><code>>>>print('C:\some**\n**ame')
 C:\some
 ame
 
